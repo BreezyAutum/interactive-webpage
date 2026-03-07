@@ -1,3 +1,13 @@
+:root
+{
+    --bg-c-m1: #fc5203;
+    --bg-c-m2: #fac784;
+}
+body
+{
+    background-color: var(--bg-c-m1);
+}
+
 .ptop
 {
     display: flex;
