@@ -1,0 +1,50 @@
+/*
+Vars index:
+bg: background
+c: colour
+s: size
+txt: text
+-t: top
+-m: main
+-b: bottom
+ */
+:root
+{
+    --bg-c-m1: #eb753b;
+    --bg-c-m2: #fac784;
+    --txt-c-l1: #fc5203;
+    --txt-t-1: clamp(0.25rem, 1rem, 3rem);
+}
+body
+{
+    background-color: var(--bg-c-m1);
+    font-size: var(--txt-t-1);
+}
+header
+{
+    
+}
+.ptop
+{
+    display: flex;
+    background-color: var(--bg-c-m2);
+    /* padding-top: -3rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.ptop a
+{
+    color: var(--txt-c-l1);
+}
+nav
+{
+    
+}
+.hero
+{
+
+}
+.pmain
+{
+    background-color: var(--bg-c-m2);
+}

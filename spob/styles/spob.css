@@ -1,0 +1,58 @@
+/*
+Vars index:
+bg: background
+c: colour
+s: size
+txt: text
+-t: top
+-m: main
+-b: bottom
+*/
+:root
+{
+  --bg-c-m: #f9f3bce3;
+  --bg-c: #20a36f;
+  --bg-c-t: #d32f2f;
+  --bg-c-b: #d32f2f;
+}
+body, html
+{
+background-color: var(--bg-c);
+color: black;
+margin: 0;
+}
+.bar
+{
+  background-color: var(--bg-c-t);
+}
+header
+{
+  display: flex;
+  background-color: var(--bg-c-t);
+  color: #ffffff;
+  margin: 0;
+}
+nav
+{
+  display: flex;
+  flex-direction: row;
+}
+.hero
+{
+  display: flex;
+  justify-content: center;
+  background-image: url("/spob/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main
+{
+  background-color: var(--bg-c-m);
+  margin: 1.75rem;
+}
+footer, html
+{
+  background-color: var(--bg-c-b);
+  color: white;
+  margin: 0;
+}

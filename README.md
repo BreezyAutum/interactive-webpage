@@ -1,3 +1,2 @@
-Submission by Autum for Web Development Lab 5
-
-Attributions:
+Attribution:
+Background image: https://www.michellethies.com/The-SpongeBob-Movie-Sponge-Out-of-Water-2015
