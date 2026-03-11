@@ -47,13 +47,14 @@ nav ul
 }
 .hero
 {
-  display: flex;
+ display: flex;
   justify-content: center;
-  background-image: url ("./images/hero.png");
+  background-image: url("/images/hero.png");
   background-repeat: no-repeat;
+  background-size: 100%;
   background-position: center;
   background-size: cover;
-  height: 25vh;
+  height: 25vh
 }
 .hero p
 {
