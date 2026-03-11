@@ -44,7 +44,6 @@ nav ul
   display: flex;
   flex-direction: row;
   gap: 2vw;
-  padding: -2vh;
 }
 .hero
 {
@@ -108,7 +107,7 @@ footer
 footer ul
 {
   display: flex;
-  align-content: row;
+  flex-direction: row;
   gap: 2rem;
 }
 .anote
