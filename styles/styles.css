@@ -55,6 +55,7 @@ nav ul
   background-position: center;
   background-size: cover;
   height: 25vh;
+  /* This works in the live server... */
 }
 .hero p
 {
