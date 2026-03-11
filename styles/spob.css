@@ -50,7 +50,7 @@ nav ul
 {
   display: flex;
   justify-content: center;
-  background-image: url("/spob/images/hero.png");
+  background-image: url("/images/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,7 +110,6 @@ footer ul
   display: flex;
   align-content: row;
   gap: 2rem;
-
 }
 .anote
 {
