@@ -27,16 +27,23 @@ header
   margin: 0;
   padding-left: 10rem;
   padding-bottom: 0.5vh;
-  font-size: 2.5vh;
+  font-size: 1.5vw;
+}
+.brand
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 header img
 {
   display: flex;
-  flex-direction: row;
-  position: absolute;
+  position: sticky;
+  scale: initial;
 }
 header p
 {
+  display: flex;
   padding-top: 5vh;
 }
 nav ul
@@ -54,12 +61,12 @@ nav ul
   background-position: center;
   background-size: cover;
   height: 25vh;
-  /* This works in the live server... */
+  /* This works in the live server but not on the actual page. */
 }
 .hero p
 {
   text-align: center;
-  font-size: 6vh;
+  font-size: 2.5vw;
   text-wrap: balance;
   position: absolute;
   flex-wrap: wrap;
@@ -75,7 +82,7 @@ main
   padding: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 1.2vw;
+  font-size: 2vw;
 }
 .contact
 {
@@ -103,7 +110,7 @@ footer
 {
   padding-left: 2rem;
   padding-top: 0.25rem;
-  font-size: 1vw;
+  font-size: 1.75vw;
 }
 footer ul
 {
